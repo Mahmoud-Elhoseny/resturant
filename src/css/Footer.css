@@ -34,12 +34,51 @@
   width: 140%;
 }
 
-.icons {
-}
 .icons a {
   background-color: white;
   padding: 10px;
   margin-right: 12px;
   border-radius: 50%;
   color: black;
+}
+@media (max-width: 991px) {
+
+  .big {
+    padding-top: 40px;
+  }
+  .badp {
+    width: 50%;
+  }
+  .footer h2 {
+    font-size: 15px;
+  }
+  .footer p {
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+  }
+  .about {
+    padding-right: 35px;
+  }
+  .about p {
+    width: 160%;
+  }
+  .services {
+    padding-right: 30px;
+  }
+  .services p {
+    width: 140%;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  .icons a {
+    padding: 7px;
+    margin-right: 2px;
+    border-radius: 50%;
+  }
+
+
 }

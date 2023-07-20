@@ -10,8 +10,8 @@ const Section3 = () => {
         <div className='secti'>
             <div className=' section3'>
                 <Container>
-                    <div className='d-flex justify-content-between'>
-                        <img src={oriental} className='rounded-circle' alt='oriental' />
+                    <div className='orientalbob d-flex justify-content-between'>
+                        <img  src={oriental} className='oriental rounded-circle' alt='oriental' />
                         <div className='contain'>
                             <h2>Oriental Taste</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
@@ -19,7 +19,7 @@ const Section3 = () => {
                         </div>
                     </div>
                 </Container>
-                <div className='statistics '>
+                <div className='statistics'>
                     <h2>Statistics</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
                     <Container>
@@ -43,7 +43,7 @@ const Section3 = () => {
                         </div>
                     </Container>
                     <div className='grill d-flex justify-content-between'>
-                    <div>
+                    <div className='grill-contain'>
                         <h2>Chicken Grill</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
                         <button>ORDER NOW</button>

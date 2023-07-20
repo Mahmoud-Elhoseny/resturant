@@ -46,6 +46,8 @@
 .circles {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+
 
 }
 .circles div {
@@ -94,13 +96,62 @@ border-radius: 50%;
 width: 100%;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
   .contain {
     padding-left: 0;
   }
+  .secti {
+    background-image: none;
+    padding-top: 50px;
+  }
+  .section3 {
+    background-image: none;
+  
+  }
+  .oriental{
+width: 100%;
+  }
+  .orientalbob{
+    flex-direction: column;
+  }
+.orientalbob button{
+  font-size: 16px;
+  padding: 5px 130px;
+}
+.statistics{
+  margin-top: 20px;
+}
+.circles{
+  flex-direction: column;
+  text-align: center;
+justify-content: center;
+align-items: center;
 }
 
-@media (max-width: 767.98px) {
+  .circles div {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+  }
+  .grill{
+    padding-top: 51px;
+padding-right: 0;
+  }
+  .grill-contain{
+position: absolute;
+top:50%;
+right: 50%;
+  }
+  .grill img{
+    text-align: center;
+    margin-left: 50px;
+  } 
+  .grill-contain p {
+    
+  }
+  
+}
+@media (max-width: 767px) {
   .section3 h2 {
     font-size: 60px;
   }
@@ -109,15 +160,7 @@ width: 100%;
     font-size: 18px;
   }
 
-  .section3 button {
-    font-size: 16px;
-    padding: 5px 20px;
-  }
 
-  .circles div {
-    width: 150px;
-    height: 150px;
-  }
 
   .circles p {
     font-size: 40px;
@@ -129,13 +172,19 @@ width: 100%;
 
   .grill h2 {
     font-size: 40px;
-  }
+    padding-right: 300px; 
+   }
 
   .grill p {
     font-size: 16px;
+    padding-left: 60px; 
+    
   }
 
   .grill button {
-    margin-right: 0;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 285px;
+
   }
 }
