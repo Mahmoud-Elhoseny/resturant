@@ -1,0 +1,52 @@
+.seller h2 {
+  font-size: 75px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Grand Hotel";
+  text-align: center;
+}
+.seller p {
+  width: 80%;
+  padding-left: 200px;
+  font-size: 25px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Montserrat";
+}
+
+.foodComp {
+  display: flex;
+  text-align: center;
+  padding-top: 40px;
+}
+.foodComp img {
+  border-radius: 50%;
+}
+
+.foodComp h3 {
+  font-size: 42px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Grand Hotel";
+  text-align: center;
+}
+
+.foodComp p {
+  width: 80%;
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  .seller h2 {
+    font-size: 40px;
+  }
+  .seller p {
+    width: 100%;
+    padding-left: 0 !important;
+  }
+  .foodComp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0 !important;
+  }
+}

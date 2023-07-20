@@ -1,0 +1,41 @@
+.subscribe {
+  position: relative;
+  min-height: 100vh;
+  background: #f4f4f4;
+}
+.con {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.con h2 {
+  font-size: 100px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Grand Hotel";
+  text-align: center;
+}
+.con p {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.con input{
+    width: 549px;
+height: 50px;
+border-radius: 4px;
+border-right: none;
+border: none;
+background-color: white;
+padding-left: 15px;
+}
+.con button{
+    font-weight: bold;
+    border: none;
+    width: 200px;
+height: 50px;
+background-color: #ffc200;
+}
