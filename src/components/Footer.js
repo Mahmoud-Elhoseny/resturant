@@ -37,7 +37,7 @@ const Footer = () => {
                         <p>Promo</p>
                         <p>Payment Method</p>
                     </div>
-                    <div className='pe-5'>
+                    <div>
                         <h2>Other</h2>
                         <p>Contact us</p>
                         <p>Help</p>

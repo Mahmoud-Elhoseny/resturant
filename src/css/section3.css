@@ -134,13 +134,16 @@ align-items: center;
     height: 150px;
   }
   .grill{
-    padding-top: 51px;
-padding-right: 0;
+    padding-top: 50px;
+    padding-right: 0px;
+    height: 450px;
+    width: 150px;
+    margin-left: 70px;
+
   }
   .grill-contain{
 position: absolute;
 top:50%;
-right: 50%;
   }
   .grill img{
     text-align: center;
@@ -167,20 +170,30 @@ right: 50%;
   }
 
   .grill h2 {
-    font-size: 40px;
-    padding-right: 300px; 
+    font-size: 30px;
+    padding-right: 0;
    }
 
   .grill p {
     font-size: 16px;
-    padding-left: 60px; 
-    
+    padding-left: 0; 
+    width: 250px;
+
   }
 
   .grill button {
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: 285px;
+    margin-right: 0;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    background: #ffc200;
+    padding: 5px 40px;
+    border-radius: 4px;
 
   }
 }
