@@ -7,7 +7,7 @@ import foodImg3 from '../Imgs/foodimg3.png'
 const Landing = () => {
     return (
         <Container>
-            <div className='seller flex text-center pt-5'>
+            <div className='seller flex text-center pt-5' id='promo'>
                 <h2>Best Seller</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
             </div>

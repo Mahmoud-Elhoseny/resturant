@@ -17,14 +17,14 @@ function Navbarr() {
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#product">Product</Nav.Link>
               <Nav.Link href="#promo">Promo</Nav.Link>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#contact">Contact</Nav.Link>
+              <Nav.Link href="#statistics">About</Nav.Link>
+              <Nav.Link href="#subscribe">Contact</Nav.Link>
               <Nav.Link href="#"><AiOutlineSearch /> </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className='title'>
+      <div className='title' id='home'>
         <h2>
           Title Here
         </h2>

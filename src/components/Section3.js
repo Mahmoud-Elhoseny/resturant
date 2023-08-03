@@ -19,7 +19,7 @@ const Section3 = () => {
                         </div>
                     </div>
                 </Container>
-                <div className='statistics'>
+                <div className='statistics' id='statistics'>
                     <h2>Statistics</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
                     <Container>
